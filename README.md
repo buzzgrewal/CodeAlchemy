@@ -1,13 +1,13 @@
 
-# CodeAlchemy
+# CodeAlchemy ⚗️
 
-**Transmuting Pseudocode into C++ Mastery**
+**Transmuting Pseudocode into C++ Mastery 💻➡️🎯**
 
-## Overview
+## Overview 🚀
 
 CodeAlchemy is a Transformer-based sequence-to-sequence model built from scratch in PyTorch that converts pseudocode into C++ code. This project demonstrates how to design, train, evaluate, and deploy a custom transformer model for code generation without relying on pretrained models.
 
-## Features
+## Features ✨
 
 - **Custom Transformer Model:** Implemented from scratch using PyTorch.
 - **Vocabulary Building & Tokenization:** Efficiently constructs vocabularies for pseudocode and C++.
@@ -16,7 +16,7 @@ CodeAlchemy is a Transformer-based sequence-to-sequence model built from scratch
 - **Testing & Inference:** Separate scripts for testing and interactive inference.
 - **Interactive Streamlit UI:** Upload model files and get instant pseudocode-to-C++ conversion.
 
-## Project Structure
+## Project Structure 📂
 
 ```plaintext
 CodeAlchemy/
@@ -32,7 +32,7 @@ CodeAlchemy/
     └── test.tsv           # Test data.
 ```
 
-## Installation
+## Installation 🛠️
 
 1. **Clone the Repository:**
 
@@ -66,14 +66,14 @@ CodeAlchemy/
    nltk.download('punkt')
    ```
 
-## Data Preparation
+## Data Preparation 📋
 
 - **Input Files:** Prepare your training, evaluation, and testing files in TSV (or CSV) format with at least these columns:
   - `text` – The pseudocode input.
   - `code` – The target C++ code.
 - Place these files in the `data/` directory and adjust file paths in the scripts if necessary.
 
-## Training the Model
+## Training the Model 🏋️‍♂️
 
 Run the training script:
 
@@ -87,7 +87,7 @@ This script will:
 - Save the model's state dictionary as `transformer_model.pth`.
 - Save the source and target vocabularies as `src_vocab.pkl` and `trg_vocab.pkl`, respectively.
 
-## Evaluation
+## Evaluation 📊
 
 Evaluate the trained model by running:
 
@@ -100,7 +100,7 @@ This script:
 - Runs inference on the evaluation data.
 - Computes and prints the BLEU score.
 
-## Testing
+## Testing 🔍
 
 Generate predictions on your test data with:
 
@@ -110,7 +110,7 @@ python test.py
 
 The script loads the model and vocabularies, translates the pseudocode inputs into C++ code, and saves the predictions to `test_predictions.txt`.
 
-## Interactive Streamlit Interface
+## Interactive Streamlit Interface 💡
 
 Try out the model interactively with the Streamlit app. The app allows you to upload your model and vocabulary files via the sidebar and generate C++ code from pseudocode inputs.
 
@@ -126,16 +126,18 @@ streamlit run streamlit_app.py
 - Upload the `trg_vocab.pkl` file.
 - Enter your pseudocode in the main area and click **Generate Code** to see the output.
 
-## Contributing
+## Contributing 🤝
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the model, code, or documentation.
 
-## License
+## License 📄
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
+## Acknowledgements 🙏
 
 - Built with [PyTorch](https://pytorch.org/) and [Streamlit](https://streamlit.io/).
 - Inspired by the growing field of AI-powered code generation.
 
+**Happy Coding! 🎉**
+```
