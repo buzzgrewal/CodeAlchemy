@@ -127,6 +127,18 @@ streamlit run streamlit_app.py
 - Upload the `trg_vocab.pkl` file.
 - Enter your pseudocode in the main area and click **Generate Code** to see the output.
 
+## Interface ✨
+
+- **Main Page:**
+  ![250227_18h52m41s_screenshot](https://github.com/user-attachments/assets/e5d3e29b-982d-4365-9f32-a28d0959e235)
+
+- **Processing:**
+  ![250227_18h53m11s_screenshot](https://github.com/user-attachments/assets/375ba42d-f65a-4e1d-a5ff-43c922e00d36)
+ 
+- **Output:**
+  ![250227_21h41m38s_screenshot](https://github.com/user-attachments/assets/61ccc6e8-4602-45f9-9efb-f0769528a515)
+
+
 
 ## Acknowledgements 🙏
 
