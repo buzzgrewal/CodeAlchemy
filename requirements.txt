@@ -1,0 +1,7 @@
+torch
+nltk
+pandas
+numpy
+pickle
+streamlit
+argparse
