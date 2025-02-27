@@ -23,13 +23,14 @@ CodeAlchemy/
 ├── model_train.py         # Transformer model, training routines, and utility functions.
 ├── eval.py                # Evaluation script that computes BLEU score.
 ├── test.py                # Testing script to generate predictions on test data.
-├── streamlit_app.py       # Streamlit UI for interactive pseudocode-to-C++ generation.
+├── app.py                 # Streamlit UI for interactive pseudocode-to-C++ generation.
 ├── README.md              # This file.
 ├── requirements.txt       # Python dependencies.
 └── data/
-    ├── train.tsv          # Training data (TSV format: pseudocode and C++ code).
-    ├── eval.tsv           # Evaluation data.
-    └── test.tsv           # Test data.
+    ├── train.csv          # Training data (TSV format: pseudocode and C++ code).
+    ├── eval.csv           # Evaluation data.
+    └── test.csv           # Test data.
+    └── all_data.csv       # All data combined.
 ```
 
 ## Installation 🛠️
@@ -126,13 +127,6 @@ streamlit run streamlit_app.py
 - Upload the `trg_vocab.pkl` file.
 - Enter your pseudocode in the main area and click **Generate Code** to see the output.
 
-## Contributing 🤝
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the model, code, or documentation.
-
-## License 📄
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements 🙏
 
@@ -140,4 +134,4 @@ This project is licensed under the [MIT License](LICENSE).
 - Inspired by the growing field of AI-powered code generation.
 
 **Happy Coding! 🎉**
-```
+
