@@ -30,6 +30,7 @@ CodeAlchemy/
 ├── eval.csv               # Evaluation data.
 ├── test.csv               # Test data.
 ├── spoc.zip               # Train, test, testcase data.
+├── text_predictions.txt   # Output of text.py
 └── spoc-train.csv         # All data combined.
 ```
 
