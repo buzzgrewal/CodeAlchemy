@@ -26,11 +26,11 @@ CodeAlchemy/
 ├── app.py                 # Streamlit UI for interactive pseudocode-to-C++ generation.
 ├── README.md              # This file.
 ├── requirements.txt       # Python dependencies.
-└── data/
-    ├── train.csv          # Training data (TSV format: pseudocode and C++ code).
-    ├── eval.csv           # Evaluation data.
-    └── test.csv           # Test data.
-    └── all_data.csv       # All data combined.
+├── train.csv              # Training data (TSV format: pseudocode and C++ code).
+├── eval.csv               # Evaluation data.
+├── test.csv               # Test data.
+├── spoc.zip               # Train, test, testcase data.
+└── spoc-train.csv         # All data combined.
 ```
 
 ## Installation 🛠️
