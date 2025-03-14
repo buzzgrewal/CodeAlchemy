@@ -39,7 +39,7 @@ CodeAlchemy/
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/CodeAlchemy.git
+   git clone https://github.com/buzzgrewal/CodeAlchemy.git
    cd CodeAlchemy
    ```
 
